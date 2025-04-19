@@ -50,10 +50,10 @@ export default function TextForm(props) {
                 </div>
                 <button className="btn btn-primary mx-2" onClick={handleUpclick}>Convert to upper case</button>
                 <button className="btn btn-primary mx-2" onClick={handleLoclick}>Convert to lower case</button>
-                <button className="btn btn-primary mx-2" onClick={handleCleartext}>Clear text</button>
                 <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
                 <button className="btn btn-primary mx-2" onClick={handleRemoveSymbols}>Remove Symbols</button>
                 <button className="btn btn-primary mx-2" onClick={handleCountVowels}>Count vowels</button>
+                <button className="btn btn-primary mx-2" onClick={handleCleartext}>Clear text</button>
             </div>
             <br />
             <div className="container" style={{ color: props.mode === 'dark' ? 'white' : '#042743' }}>
